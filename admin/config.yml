@@ -3,3 +3,55 @@ backend:
   repo: matippetts/matippetts.github.io
 publish_mode: editorial_workflow
 media_folder: images
+collections:
+  # [name, label, file/folder, create/delete, slug, fields]
+  # field: [ name, label, hint, pattern, required, widget ]
+  # widgets: [ object, boolean, date, datetime, file, hidden, image, list, markdown, number, relation, select, string, text ]
+  - name: employer
+    label: Employer
+    folder: _data/employers
+    create: true
+    fields:
+      - {name: "title", label: "Title", widget: "string"}
+  - name: client
+    label: Client
+    folder: _data/clients
+    create: true
+    fields:
+      - {name: "title", label: "Title", widget: "string"}
+  - name: platform
+    label: Platform
+    folder: _data/platforms
+    create: true
+    fields:
+      - {name: "title", label: "Title", widget: "string"}
+  - name: tool
+    label: Tool
+    folder: _data/tools
+    create: true
+    fields:
+      - {name: "title", label: "Title", widget: "string"}
+  - name: framework
+    label: Framework
+    folder: _data/frameworks
+    create: true
+    fields:
+      - {name: "title", label: "Title", widget: "string"}
+  - name: language
+    label: Language
+    folder: _data/languages
+    create: true
+    fields:
+      - {name: "title", label: "Title", widget: "string"}
+  - name: pattern
+    label: Pattern
+    folder: _data/patterns
+    create: true
+    fields:
+      - {name: "title", label: "Title", widget: "string"}
+  - name: standard
+    label: Standard
+    folder: _data/standards
+    create: true
+    fields:
+      - {name: "title", label: "Title", widget: "string"}
