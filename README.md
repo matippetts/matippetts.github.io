@@ -1,4 +1,4 @@
-GitHub Pages site: https://matippetts.github.com
+GitHub Pages site: https://matippetts.github.io
 
 Netlify site: https://matippetts.netlify.com
 
