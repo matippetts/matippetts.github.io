@@ -1,3 +1,6 @@
+GitHub Pages site: https://matippetts.github.com
+Netlify site: https://matippetts.netlify.com
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/matippetts/matippetts.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
