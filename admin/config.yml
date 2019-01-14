@@ -1,6 +1,5 @@
 backend:
   name: github
-  repo: matippetts/netlify-cms-jekyll
 publish_mode: editorial_workflow
 media_folder: images
 collections:
