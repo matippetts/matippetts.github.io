@@ -1,9 +1,13 @@
 backend:
   name: github
   repo: matippetts/matippetts.github.io
+  branch: master
   site_domain: matippetts.netlify.com
+  
 publish_mode: editorial_workflow
+
 media_folder: images
+
 collections:
   # [name, label, file/folder, create/delete, slug, fields]
   # field: [ name, label, hint, pattern, required, widget ]
