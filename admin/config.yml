@@ -2,7 +2,7 @@ backend:
   name: github
   repo: matippetts/matippetts.github.io
   branch: master
-  site_domain: matippetts.github.io
+  site_domain: matippetts.netlify.com
   
 publish_mode: editorial_workflow
 
