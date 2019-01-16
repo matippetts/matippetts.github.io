@@ -1,6 +1,6 @@
-GitHub Pages site: https://matippetts.github.io
+GitHub Pages [site](https://matippetts.github.io) [admin](https://matippetts.github.io/admin)
 
-Netlify site: https://matippetts.netlify.com
+Netlify [site](https://matippetts.netlify.com) [admin](https://matippetts.netlify.com/admin)
 
 ## Welcome to GitHub Pages
 
