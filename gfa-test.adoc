@@ -1,7 +1,0 @@
-= Asciidoc Test
-
-This is just a quick test to see if https://gist.github.com/dcode/0cfbf2699a1fe9b46ff04c41721dda74[Markdown Flavored Asciidoc] is supported out of the box.
-
-Nope.
-
-Maybe if I add a line to the Gemfile?
