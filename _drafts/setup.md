@@ -1,18 +1,23 @@
 ---
 title: Setting up Jekyll for GitHub Pages
 author: Mark Tippetts
-published: false
 tags:
   - meta
   - JAMstack
+date: 2019-01-04
 ---
 ### <span id="settings">Server setup</span>
 
-To start, I created a repository on GitHub named `matippetts.github.io`. In this new repository, I used the settings tab to make a couple of changes:
-1. Under the **Features** section, I added issue templates for bug reports and feature requests.
-2. Under the **GitHub Pages** section, I selected a dark theme, _"Hacker."_
+To start, I created a repository on GitHub named `matippetts.github.io`. From the **settings** tab I made a couple of changes:
+1. Under the **Features** section, I added issue templates for bug reports and feature requests. This produced a folder named `.github/ISSUE_TEMPLATE` with two files:
+  - bug_report.md
+  - feature_request.md
+2. Under the **GitHub Pages** section, I selected a dark theme, _"Hacker."_ This produced a `_config.yml` file with a single line:
+``` yaml
+theme: jekyll-theme-hacker
+```
 
-<aside>I have a lot of trouble with glare from computer monitors. Normally, I use <a href="https://github.com/darkreader/darkreader">accessibility software</a> to change the appearance of websites. But I want to see what visitors will see, so I'm using a dark theme to develop this site. I had two choices: Hacker, or Midnight. I settled on the former, preferring the wider margins and larger print. Nevertheless I may change it later, because the name is dorky.</aside>
+<aside>(I have a lot of trouble with glare from computer monitors. Normally, I use <a href="https://github.com/darkreader/darkreader">accessibility software</a> to change the appearance of websites. But I want to see what visitors will see, so I'm using a dark theme to develop this site. The decision had nothing to do with my predilection for goth music -- honest! I had two choices: Hacker, or Midnight. I settled on the former, preferring the wider margins and larger print. Nevertheless I may change it later, because the name is dorky.)</aside>
 
 ### <span id="local">Workspace setup</span>
 
@@ -32,12 +37,16 @@ git add Gemfile
 git commit -m "Create Gemfile" -a
 ```
 
-Next, following the instructions in the README.md for the [GitHub Pages Ruby Gem](https://github.com/github/pages-gem), I issued the following commands:
+Following the instructions in the README.md for the [GitHub Pages Ruby Gem](https://github.com/github/pages-gem), I issued the following commands:
 ``` bash
 gem update bundler
 bundle install
 ```
-The second command presented a choice: I could enter my password to install the gems globally using `sudo`; or I could cancel and start over, installing the gems to a subfolder of the repo. I expect to add a number of projects to my portfolio, and I'll be using Jekyll to maintain the GitHub Pages for all of them. So I decided to do a global install, rather than repeatedly downloading the dependencies to a dozen local repos.
+The second command presented a choice: I could enter my password to install the gems globally using `sudo`; or I could cancel and start over, installing the gems to a subfolder of the repo. I expect to add a number of projects to my portfolio, and I'll be using Jekyll to maintain the GitHub Pages for all of them. So I decided to do a global install, rather than repeatedly downloading the dependencies to a dozen local repos. So:
+
+``` bash
+sudo bundle install
+```
 
 Bundler installed 85 gems and created a new file: `Gemfile.lock`. A quick peek at StackOverflow informed me [I should commit this file to git](https://stackoverflow.com/a/4151540/6092135). So I did:
 ``` bash

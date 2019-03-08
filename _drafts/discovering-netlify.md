@@ -1,27 +1,29 @@
 ---
-title: Discovering Netifly
-author: Mark matippetts
-published: false
+title: Discovering Netlify
+author: Mark Tippetts
+date: 2019-01-10
 tags:
   - meta
   - JAMstack
   - headlessCMS
 ---
-On GitHub:
-- I created a repository named _netlify-cms-jekyll_.
+On [GitHub](https://github.com/matippetts):
+- I created a repository named _matippetts.github.io_.
 - I created a Gemfile with the following content:
 
-``` bash
+``` ruby
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins do
-  gem "jekyll-admin"
-end
+gem "github-pages", group: :jekyll_plugins
 ```
-- I saved the Gemfile to a new `gh-pages` branch, thereby opening a new **Pull Request**.
-- From the repository **settings** tab, I set the **GitHub Pages** source to `gh-pages branch` and the theme to `Midnight`.
 
-On Netlify:
+- I saved the Gemfile to a new `gh-pages` branch, thereby opening a new **Pull Request**.
+- From the repository **settings** tab, I set the **GitHub Pages** theme to `Midnight`, which had the effect of creating a file named `_config.yml` with a single line:
+``` yaml
+theme: jekyll-theme-hacker
+```
+
+On [Netlify](https://app.netlify.com):
 - I created a new site from Git.
 - From the site **settings**:
   - I changed the site name to `matippetts-netlify-cms-jekyll`
@@ -38,4 +40,5 @@ in /_layouts/default.html
 ```
 
 A little research on this came up with [a solution to a closed issue](https://github.com/jekyll/jekyll/issues/4705#issuecomment-200991736) on the jekyll repository on Github, which suggested adding the repository name to the `_config.yml` file.
+
 Here is [a link](file:///home/mark/workspaces/professional-website/matippetts.github.io/_posts/2019-01-13-open-in-browser-PR.md) that should work.
