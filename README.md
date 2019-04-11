@@ -1,41 +1,90 @@
-GitHub Pages [site](https://matippetts.github.io) [admin](https://matippetts.github.io/admin)
+# Mark Tippetts - Developer Portfolio <!-- omit in toc -->
 
-Netlify [site](https://matippetts.netlify.com) [admin](https://matippetts.netlify.com/admin)
+Content model:
 
-## Welcome to GitHub Pages
+## [hResume] microformat
 
-You can use the [editor on GitHub](https://github.com/matippetts/matippetts.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Properties:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<dl>
+<dt>summary (optional)</dt>  
+<dd>
 
-### Markdown
+text.
+</dd>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<dt>contact info (required)</dt>
+<dd>
 
-```markdown
-Syntax highlighted code block
+must use [hCard];  
+should use \<address> + [hCard].
+</dd>
 
-# Header 1
-## Header 2
-### Header 3
+<dt>experience (optional)</dt>
+<dd>
 
-- Bulleted
-- List
+One or more [hcalendar] events with the class name 'experience', with an embedded [hCard] indicating the job title, name of company, address of company etc.
+</dd>
 
-1. Numbered
-2. List
+<dt>education (optional)</dt>
+<dd>
 
-**Bold** and _Italic_ and `Code` text
+One or more [hcalendar] events with the class name 'education', with an embedded [hCard] indicating the name of school, address of school etc.
+</dd>
 
-[Link](url) and ![Image](src)
-```
+<dt>skills (optional)</dt>
+<dd>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+phrases or keywords using the [rel-tag] microformat with the class name 'skill'.
+</dd>
 
-### Jekyll Themes
+<dt>affiliations</dt>
+<dd>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/matippetts/matippetts.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+the class name affiliation along with an [hcard] of the organization
+</dd>
 
-### Support or Contact
+<dt>publications</dt>
+<dd>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+One or more citations. Use cite tag.
+
+When there is a [citation] microformat, then that can be used in combination with the cite element to further markup the components of the citation.
+</dt>
+</dl>
+
+## [hCard] microformat
+
+Properties:
+<dl>
+</dl>
+
+## [hCalendar] microformat
+
+Properties:
+<dl>
+</dl>
+
+[hResume]: http://microformats.org/wiki/hResume "hResume microformat"
+
+[hCard]: http://microformats.org/wiki/hcard "hCard microformat"
+
+[hCalendar]: http://microformats.org/wiki/hcalendar "hCalendar microformat"
+
+[include pattern]: http://microformats.org/wiki/include-pattern "include file pattern"
+
+[Rel-Tag]: http://microformats.org/wiki/rel-tag "rel=\"tag\" subject-identifier links"
+
+[rfc-2119]: http://microformats.org/wiki/rfc-2119 "Requirement Levels keyword styles"
+
+[citation]: http://microformats.org/wiki/citation "Citation microformat efforts"
+
+[HTML 4]: http://www.w3.org/TR/REC-html40/ "W3C HTML 4.0 spec"
+
+[XHTML]: http://www.w3.org/TR/xhtml1/ "W3C XHTML 1.0 spec"
+
+[XMDP]: http://gmpg.org/xmdp/ "XML MetaData Profiles spec"
+
+[XFN 1.1]: http://gmpg.org/xfn/11 "XHTML Friends Network spec"
+
+[RFC2445]: http://www.ietf.org/rfc/rfc2445.txt "iCalendar standard"
