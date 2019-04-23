@@ -13,4 +13,6 @@
 
 ## UML
 
-{% include_relative json-resume-uml.md %}
+{% if site.url contains 'localhost' %}
+    {% include_relative json-resume-uml.md %}
+{% endif %}

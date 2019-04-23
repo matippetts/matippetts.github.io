@@ -1,9 +1,9 @@
 ---
 ---
-{% if site.url contains 'localhost' %}
 {% plantuml %}
 ```plantuml
 @startuml
+skinparam ArrowFontColor MediumBlue
 package owl {
   class Thing
 }
@@ -79,4 +79,3 @@ package cco {
 @enduml
 ```
 {% endplantuml %}
-{% endif %}

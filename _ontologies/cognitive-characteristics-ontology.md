@@ -26,7 +26,9 @@ These can be used as the "skill level" and "years experience" expected in resume
 
 ## UML
 
-{% include_relative cco-uml.md %}
+{% if site.url contains 'localhost' %}
+    {% include_relative cco-uml.md %}
+{% endif %}
 
 ## Context
 

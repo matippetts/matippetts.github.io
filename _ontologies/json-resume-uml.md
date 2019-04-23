@@ -1,6 +1,5 @@
 ---
 ---
-{% if site.url contains 'localhost' %}
 {% plantuml %}
 ```plantuml
 @startuml
@@ -113,4 +112,3 @@ class HighlightsItem {
 @enduml
 ```
 {% endplantuml %}
-{% endif %}

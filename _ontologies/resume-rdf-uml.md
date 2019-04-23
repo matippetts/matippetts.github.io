@@ -1,6 +1,5 @@
 ---
 ---
-{% if site.url contains 'localhost' %}
 {% plantuml %}
 ```plantuml
 @startuml
@@ -136,4 +135,3 @@ namespace NSO {
 @enduml
 ```
 {% endplantuml %}
-{% endif %}

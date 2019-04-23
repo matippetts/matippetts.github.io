@@ -22,8 +22,9 @@
   - [WordNet home](https://wordnet.princeton.edu/)
 
 ## UML
-
-{% include_relative resume-rdf-uml.md %}
+{% if site.url contains 'localhost' %}
+  {% include_relative resume-rdf-uml.md %}
+{% endif %}
 
 ## Classes
 

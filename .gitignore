@@ -4,3 +4,5 @@ _site/
 .jekyll-metadata
 uml/
 Gemfile.lock
+_microformats/content-model-uml.md
+_ontologies/*-uml.md
