@@ -37,7 +37,7 @@ git add Gemfile
 git commit -m "Create Gemfile" -a
 ```
 
-Following the instructions in the README.md for the [GitHub Pages Ruby Gem](https://github.com/github/pages-gem), I issued the following commands:
+Following the instructions in the `README.md` for the [GitHub Pages Ruby Gem](https://github.com/github/pages-gem), I issued the following commands:
 ``` bash
 gem update bundler
 bundle install
