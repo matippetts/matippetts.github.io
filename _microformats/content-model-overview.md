@@ -11,6 +11,7 @@ The content model is based on microformats v2. The spec advises using both v2 [h
 
 ## Class diagram
 
+{% if site.url contains 'localhost' %}
 {% plantuml %}
 
 ```plantuml
@@ -107,6 +108,7 @@ Resume *-- "*" Contact: p-affiliation
 @enduml
 ```
 {% endplantuml %}
+{% endif %}
 
 [h-resume]: http://microformats.org/wiki/h-resume "h-resume v2 microformat"
 [hResume]: http://microformats.org/wiki/hResume "hResume v1 microformat"

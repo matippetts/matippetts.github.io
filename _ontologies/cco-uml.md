@@ -1,5 +1,6 @@
 ---
 ---
+{% if site.url contains 'localhost' %}
 {% plantuml %}
 ```plantuml
 @startuml
@@ -78,3 +79,4 @@ package cco {
 @enduml
 ```
 {% endplantuml %}
+{% endif %}
