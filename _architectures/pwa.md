@@ -1,3 +1,0 @@
----
-name: Progressive Web Application
----
