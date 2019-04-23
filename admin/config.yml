@@ -24,42 +24,6 @@ collections:
     create: true
     fields:
       - {name: "title", label: "Title", widget: "string"}
-  - name: platform
-    label: Platform
-    folder: _data/platforms
-    create: true
-    fields:
-      - {name: "title", label: "Title", widget: "string"}
-  - name: tool
-    label: Tool
-    folder: _data/tools
-    create: true
-    fields:
-      - {name: "title", label: "Title", widget: "string"}
-  - name: framework
-    label: Framework
-    folder: _data/frameworks
-    create: true
-    fields:
-      - {name: "title", label: "Title", widget: "string"}
-  - name: language
-    label: Language
-    folder: _data/languages
-    create: true
-    fields:
-      - {name: "title", label: "Title", widget: "string"}
-  - name: pattern
-    label: Pattern
-    folder: _data/patterns
-    create: true
-    fields:
-      - {name: "title", label: "Title", widget: "string"}
-  - name: standard
-    label: Standard
-    folder: _data/standards
-    create: true
-    fields:
-      - {name: "title", label: "Title", widget: "string"}
   - name: certification
     label: Certification
     folder: _data/certifications
