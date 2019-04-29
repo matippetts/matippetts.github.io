@@ -14,4 +14,7 @@ collections:
 plugins:
   - jekyll-github-metadata
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-readme-index
+  - jekyll-optional-front-matter
   
