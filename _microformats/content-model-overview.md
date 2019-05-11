@@ -5,7 +5,7 @@
 The content model is based on microformats v2. The spec advises using both v2 [h-resume] and v1 [hResume] class-names. So I've combined them in the following presentations:
 
 - [Resume]({% link _microformats/resume-content-model.md %}) content model
-- [Contact]({% link _microformats/event-content-model.md %}) content model
+- [Contact]({% link _microformats/card-content-model.md %}) content model
 - [Location]({% link _microformats/location-content-model.md %}) content model
 - [Event]({% link _microformats/event-content-model.md %}) content model
 
