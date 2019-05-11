@@ -1,7 +1,6 @@
 ---
+title: Contact-Card Content Model
 ---
-# Contact content model <!-- omit in toc -->
-
 See also:
 - [Location](location-content-model.md) content model
 

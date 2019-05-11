@@ -2,7 +2,7 @@
 ---
 # Location content model
 
-Both [adr] and [geo] use the [hCard XMDP profile]. See [Contact](contact-content-model.md) content model for details.
+Both [adr] and [geo] use the [hCard XMDP profile]. See [Contact-card](card-content-model.md) content model for details.
 
 ## [h-adr] [adr] combined microformat
 
