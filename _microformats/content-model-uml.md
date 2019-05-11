@@ -1,8 +1,4 @@
----
-published: false
----
 {% plantuml %}
-
 ```plantuml
 @startuml
 abstract class Location {
