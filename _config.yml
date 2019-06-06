@@ -1,15 +1,9 @@
-theme: jekyll-theme-hacker
 repository: matippetts/matippetts.github.io
+url: https://matippetts.github.io
 title: Mark Tippetts
-description: self-referential musings of a metaprogrammer
-
-collections:
-  microformats:
-    output: true
-  schema-dot-org:
-    output: true
-  ontologies:
-    output: true
+description: Self-referential musings of a metaprogrammer
+author: Mark Tippetts
+theme: jekyll-theme-hacker
 
 plugins:
   - jekyll-github-metadata
