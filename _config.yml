@@ -4,6 +4,7 @@ title: Mark Tippetts
 description: Self-referential musings of a metaprogrammer
 author: Mark Tippetts
 theme: jekyll-theme-hacker
+github: [metadata]
 
 plugins:
   - jekyll-github-metadata
