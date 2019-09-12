@@ -1,4 +1,14 @@
 ---
 title: Mark Tippetts
 ---
-Hello, world!
+## Career summary
+
+## Skills and Certifications
+
+## Exerience
+
+## Freelance projects
+
+## Side projects
+
+## Education
