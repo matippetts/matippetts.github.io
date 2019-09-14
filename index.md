@@ -15,7 +15,7 @@ title: Mark Tippetts
 
 ### Lifecycle tool-chains
 
-## Epxerience
+## Experience
 
 - AOL
 - Ernest Telecom
