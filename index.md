@@ -11,35 +11,72 @@ title: Mark Tippetts
 
 ## Skills and Certifications
 
-### Languages
-
-### Lifecycle tool-chains
+- Oracle certified Java SE 8 programmer (OCA): 2016
 
 ## Experience
 
-- AOL
-- Ernest Telecom
-- Lynxus
-- Kroll & Associates
-- Phoenix & Dragon
-- T3Link
+- AOL (1997)
+- Ernest Telecom (1998)
+- Lynxus (1998-2000)
+- Kroll & Associates (2000-2001)
+- T3Link (2003)
+- Emory intervew (2006?)
+
+### VOTech-Guru (Tim Tippetts, 2016)
+
+- Provided copy-writing/editing services and metadata alignment for YouTube Video SEO
 
 ## Freelance projects
 
-- Mickey Desai
-- Tim Tippetts
-- Katie Leikam
-- Richard Cassada
-- Josh Brown
-- Ann Lang
-- Rebekah Raine
+### Phoenix & Dragon (circa 2004)
+
+### Nonprofit Snapshot (Mickey Desai, 2013-2015)
+
+- Developed a mobile web app for managementment consultants in the non-profit sector to conduct surveys and generate reports and recommendations on governance-related issues.
+- Technologies:
+  - Original (clusterfuck)
+    - EMF
+    - GWT
+    - gwt-polymer-elements (formerly Vaadin)
+  - MVP
+    - Server-side (Java) -- Explore Spring
+      - MySQL
+        - Migrate to SQLite3 on path toward PWA web storage?
+      - ORM
+      - JAX-RS framework
+    - Client-side
+      - Bootstrap
+      - Chart.js
+
+### Katie Leikam, LCSW (2017)
+
+- Crafted highly successful niche marketing strategy for newly established clinical practice
+- Educated client on content-based and narrative marketing techniques
+- Optimized digital assets and layouts for mobile-first design
+- Updated metadata for Google analytics & SEO
+
+### Product Design Sources (Richard Cassada, 2017)
+
+### Fyre & Fleet (Ann Lang, 2017)
+
+### Josh Brown (2018)
+
+### Bright Entertainment (Rebekah Raine, 2019)
 
 ## Side projects
 
-- Visual firewall config
-- JavaDoc-2-MindMap Freeplane plugin
-- Visual DSL transpiler
-- Electron client for Tasks GAPI
-- Freelance contract management service
+### Visual firewall config
+
+### Visual DSL transpiler
+
+### Personal Finance CSV classifier
+
+### JavaDoc-2-MindMap Freeplane plugin
+
+### GAPI Tasks on Electron
+
+### Jekyll CRM for Freelancers
+
+### Jekyll Offerings Catalog
 
 ## Education
