@@ -1,5 +1,5 @@
 ---
-title: Mark Tippetts
+title: Developer Profile
 ---
 ## Career summary
 
@@ -11,16 +11,29 @@ title: Mark Tippetts
 
 ## Skills and Certifications
 
-- Oracle certified Java SE 8 programmer (OCA): 2016
+- Oracle certified Java SE 8 developer (OCA): 2016
 
 ## Experience
 
-- AOL (1997)
-- Ernest Telecom (1998)
-- Lynxus (1998-2000)
-- Kroll & Associates (2000-2001)
-- T3Link (2003)
-- Emory intervew (2006?)
+### America Online (1997)
+
+- Provided tier 1 tech support and sales retention for AOL
+
+### Ernest Telecom (1998)
+
+- Built out LAN and deployed Back Office server
+- Implemented centralization of Act! CRM data
+- Assissted with implementation of telecom NOC services on AS/400
+- Supported in-house modem programming software
+- Provided troubleshooting and repair guidance to payphone operators and linemen
+
+### Lynxus (1998-2000)
+
+### Kroll & Associates (2000-2001)
+
+### T3Link (2003)
+
+### Emory intervew (2006?)
 
 ### VOTech-Guru (Tim Tippetts, 2016)
 
