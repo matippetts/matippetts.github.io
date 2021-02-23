@@ -84,12 +84,20 @@ title: Developer Profile
 
 ### Personal Finance CSV classifier
 
-### JavaDoc-2-MindMap Freeplane plugin
-
 ### GAPI Tasks on Electron
 
 ### Jekyll CRM for Freelancers
 
 ### Jekyll Offerings Catalog
+
+### MindMap-2-ZenDesk SSG
+
+### Angular client for GAPI Tasks
+
+[GitHub repo](https://github.com/matippetts/gapi-tasks-client-angular)
+
+[Deployed service](https://godo.golemware.com/)
+
+### Spring tasks manager RESTful web service
 
 ## Education
